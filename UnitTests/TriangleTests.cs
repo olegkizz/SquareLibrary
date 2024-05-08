@@ -78,27 +78,5 @@ namespace UnitTests
             //assert
             Assert.AreEqual(true, isSquare);
         }
-        //[Test]
-        //public void
-        // GetTriangleAreaWithInCorrectSides_ReturnsTriangleExceptionWithSidesCantBeNegative()
-        //{
-        //    //arrange
-        //    double a = -4;
-        //    double b = -2;
-        //    double c = -3;
-        //    Exception ex = new (); ;
-        //    //act
-        //    try
-        //    {
-        //        Figure _triangle = new Triangle(a, b, c);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        ex = e;
-        //    }
-        //    //assert
-        //    Assert.IsInstanceOf<TriangleException>(ex);
-        //    Assert.AreEqual("Sides cant be negative.", ex.Message);
-        //}
     }
 }

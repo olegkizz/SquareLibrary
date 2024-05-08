@@ -39,11 +39,6 @@ namespace SquareLibrary
                 throw new TriangleException(
                     "Sum of two lines bigger than third.");
             }
-            //if(a < 0 || b < 0 || c < 0)
-            //{
-            //    throw new TriangleException(
-            //        "Sides cant be negative.");
-            //}
             return true;
         }
         public bool IsSquare()
